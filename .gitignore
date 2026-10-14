@@ -5,3 +5,39 @@ v3a_dataset_bad.jsonl
 V3A.jsonl
 .jsonl
 V3A_clean.jsonl
+
+
+# Dataset folders
+/dataset/
+
+# JSONL and JSON dataset files
+*.jsonl
+*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code workspace settings (optional)
+.vscode/
